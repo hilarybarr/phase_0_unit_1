@@ -11,7 +11,7 @@ Initially, I was confused about the difference between git init and git clone. T
 
 
 * Write an explanation of and compare git and GitHub to a non-technical audience.
-* 
+
 Git is software that exists locally on a computer which lets a person save and revisit different versions of their work. GitHub is a website that allows developers to host their Git repositories ( directories of all the versions of their work). Morever, GitHub enables developers to share their code, comment on others' code , and collaborate. Users can take code that someone else wrote and edit it under their own account through a method called "forking". Users can then suggest that their changes be added to the original repository through a "pull request." If approved, the change would be "merged" with the original repository. 
 
 
