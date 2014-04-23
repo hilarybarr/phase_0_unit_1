@@ -1,9 +1,10 @@
 ## 3. [Web Basics](3_web_basics/readme.md) Reflection
 
+
+
 * What 2 new things did you learn about the web?
 
-1. The Web is NOT the same as the Internet; the Web is only a small component of the Internet. 
-2. To see a website, your browser sends out a request for a web page to a server, which is a computer that hosts webpages and sends the information about the web pages back to your browser.
+I learned that the Web is NOT the same as the Internet; the Web is only a small component of the Internet. Also, to see a website, your browser sends out a request for a web page to a server, which is a computer that hosts webpages and sends the information about the web pages back to your browser.
 
 
 
@@ -23,9 +24,11 @@ If there is another website that you would like to replicate when writing your H
 Ecstatic :-D
 
 
+
 * Did you have an "aha" moments or were any concepts solidified?
 
 At first, I was having trouble visualizing what exactly a Git repository is or where the information is stored. Creating the index.html file and then working on this reflection allowed me to figure out where Git repositories are stored and how to modify files. I also found learning about the Web, the Internet, web servers, domain names, and IP addresses interesting because they're terms that I always hear but never truly understood before.
+
 
 
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
