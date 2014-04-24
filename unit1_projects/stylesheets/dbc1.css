@@ -1,0 +1,120 @@
+/* This is the CSS for my introduction HTML site */
+
+body
+{
+	 background-color: navy;
+	 text-align: center;
+	 border: 12px solid white;
+	 color: navy;
+}
+
+
+h1
+{
+	 background-color: white;
+	 font-family: Times New Roman, serif;
+     font-size: 30px;
+}
+
+
+#div1 
+{
+	 background-color: white;
+	 color: navy;
+}
+
+
+h2
+{
+	 font-family: Verdana, serif ;
+     font-size: 25px;
+}
+
+
+#firstparagraph
+{
+	font-size: 16px;
+	 font-style: italic;
+}
+
+
+#secondparagraph
+{
+	font-size: 16px;
+     font-weight: bold;
+}
+
+#brainpic
+{ 
+	 height: 200px;
+	 width: 300px;
+}
+
+
+ul, ol
+{
+	 font-weight: bold;
+	 color: white;
+	 font-family: Arial, serif ;
+     font-size: 25px;
+ }
+
+.firstlist
+{ 
+	 font-weight: normal;
+	 font-style: italic;
+	 font-size: 14px;
+}
+
+
+.secondlist
+{ 
+	font-weight: normal;
+	 font-style: italic;
+	 font-size: 14px;
+}
+
+
+ #linkdiv
+{
+	 background-color: white;
+}
+
+
+h3
+{
+	 color: navy;
+	 font-family: Garamond, serif ;
+     font-size: 30px;
+}
+
+
+h4, h5, h6
+{
+	 color: navy;
+	 font-family: Garamond, serif ;
+     font-size: 16px;
+}
+
+
+a
+{
+	 color: blue;
+}
+
+
+a:hover
+{
+	 color: navy;
+}
+
+
+img
+{ 
+	 height: 100px;
+	 width: 200px;
+}
+
+
+
+
