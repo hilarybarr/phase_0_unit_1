@@ -29,4 +29,4 @@ At first, I wasn't able to see local modifications in the Source tab and some fe
 
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 
-This resource clarified the difference between HTML and source code and DOM: http://css-tricks.com/dom/. This video was helpful too, especially the graphical representation of the DOM: http://www.youtube.com/watch?v=kMgbGJuYMpU. 
+This resource clarified the difference between HTML and source code and DOM: http://css-tricks.com/dom/. These videos were helpful too, especially the graphical representations of the DOM: http://www.youtube.com/watch?v=kMgbGJuYMpU and http://www.youtube.com/watch?v=URF2sVQWuxU.
