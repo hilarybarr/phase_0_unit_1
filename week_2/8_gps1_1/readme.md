@@ -1,3 +1,13 @@
+  
+Dominic Scotto  4:08 PM
+http://pcottle.github.io/learnGitBranching/
+https://dash.generalassemb.ly/
+
+http://flockdraw.com/9elc61
+
+
+
+
 [Week 2 Home](../)
 
 ##U1.W2: GPS 1.1: Your First Pairing Session! 

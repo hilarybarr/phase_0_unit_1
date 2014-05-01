@@ -1,1 +1,66 @@
 /* include your css here */
+body { 
+	color: black;
+	font-family: "Garamond", Arial;
+	border: 8px solid black;
+}
+  
+#header h1 {
+	text-align: center;
+	font-size: 2em;
+	position: relative;
+	top: 50px;
+}
+  
+#header {
+	background-color: green;
+	height: 150px;
+}
+  
+#aside {
+	float: right;
+	width: 30%;
+}
+  
+#content {
+	float: left;
+	width: 50%;
+	margin-left: 10%;
+}
+  
+#footer {
+	clear: both;
+	background-color: lime;
+	height: 100px;
+	width: 100%;
+}
+  
+#footer ul li {
+	display: inline;
+	padding: 20px;
+	position: relative;
+	top: 30px; 
+}
+  
+a:link, a:visited {
+	color: green;
+	font-size: 1.5em;
+}
+  
+a:hover {
+	color: white;
+}
+  
+a:active {
+	color: black;
+}
+  
+#content p {
+	width: 100%;
+	font-size: 1em; 
+}
+  
+img {
+	width: 50%;
+	height: auto;
+}
