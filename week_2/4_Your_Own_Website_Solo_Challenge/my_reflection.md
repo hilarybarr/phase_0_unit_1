@@ -21,7 +21,7 @@ I'd like to add an rss of blog posts as an aside; add a contact forum; and event
 
 
 * Was it difficult to apply the material you learned? Did you find anything in your research you thought was super cool?
-I had trouble using media metatags to move my images from three per line to two per line when the page was resized because I am not sure how to get the floats to do this yet. Instead, I cleared all the floats and put one image per line but still want to figure out how to change the floats properly in the media metatags. I thought the Color Picker is a great tool: http://colorschemedesigner.com/. It also struck me as interesting that 40% will abandon a site that has a load time of more than 3 seconds. 
+I had trouble using media queries to move my images from three per line to two per line when the page was resized because I am not sure how to get the floats to do this yet. Instead, I cleared all the floats and put one image per line but still want to figure out how to change the floats properly in the media queries. I thought the Color Picker is a great tool: http://colorschemedesigner.com/. It also struck me as interesting that 40% will abandon a site that has a load time of more than 3 seconds. 
 
 
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
