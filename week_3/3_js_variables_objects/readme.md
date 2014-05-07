@@ -21,7 +21,7 @@ In this challenge you will be creating a series of variables. The values of the 
 will be different types of JavaScript objects.
 
 You will find driver test code (code that returns `true` or `false` when it runs in your [my_solutions.js](my_solutions.js) file. Run the code in this file either from the command line 
-using Node.js or by pasting the code of this entire file into your browser console. All tests will log `true` in the console when they pass--`false`, otherwise.
+using Node.js or by pasting the code of this entire file into your browser console. All tests will log `true`in the console when they pass--`false`, otherwise.
 
 The tests will tell you what to do next.  Run the code and read the message explaining 
 why the code couldn't be run or why the test failed.  The first step is going be to make 
