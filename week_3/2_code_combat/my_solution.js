@@ -7,41 +7,48 @@
  
  
  // RESCUE MISSION
-// Press "Play"(<i class='icon-play'></i> to watch the action
-//Get Tharin out of the dead end
-//delete this.moveRight();
-//Get Tharin behind the Munchkin:
+//Move up
+//Move right X2
+//Move down
+//Attack the nearby enemy
 this.moveUp();
 this.moveRight();
 this.moveRight();
 this.moveDown();
-//Atack that Munchkin
 this.attackNearbyEnemy();
-//Press the play button
+
 
 
 
 // GRAB THE MUSHROOM
-// Get the mushroom.
+// Move up
+// Move right, grab mushroom
+// Move left
+// Move up
+// Attack the nearby enemy
+
 this.moveUp();
 this.moveRight();
-//Press play.
-// Defeat the ogre.
 this.moveLeft();
 this.moveUp();
 this.attackNearbyEnemy();
-// Press Play.
+
 
 
 
 // DRINK ME
-// Keep Tharin alive
-// Kill Munchkin #1
+// Move right
+// Attack Munchkin #1
+// Move right
+// Move down, grab health potion
+// Move up
+// Move right
+// Attack nearby enemy
+
+this.moveRight();
 this.attackNearbyEnemy();
-// Grab the health potion
 this.moveRight();
 this.moveDown();
-// Kill Munchkin #2
 this.moveUp();
 this.moveRight();
 this.attackNearbyEnemy();
@@ -49,26 +56,39 @@ this.attackNearbyEnemy();
 
 
 // TAUNT THE GUARDS
-// Move right and bust down the door.
+// Move right
+// Bust down the door
+// Move right
+// Taunt guards by saying something
+// Move left X 2
+// Say "Attack!"
+// Move right 
+// Say "Follow Me" to get Phoebe to follow through the dungeon
+// Move right X 2 to taunt the guards
+// Move up
+// Move right
+// Say something to taunt the guards
+// Move down
+// Move right
+// Move up
+// Move right
+
+
+
 this.moveRight();
 this.bustDownDoor();
-// Lure the ogre.
 this.moveRight();
 this.say("Hey there!");
 this.moveLeft();
 this.moveLeft();
 this.say("Attack!");
-// Get Phoebe to follow through the dungeon.
 this.moveRight();
-// Say "Follow Me"
 this.say("Follow me.");
-// Taunt the guards
 this.moveRight();
 this.moveRight();
 this.moveUp();
 this.moveRight();
 this.say("Hey there!");
-//Escape to the right
 this.moveDown();
 this.moveRight();
 this.moveUp();
@@ -77,11 +97,14 @@ this.moveRight();
 
 
 // IT'S A TRAP
-// Taunt the ogre
+// Move down X 2
+// Say something to taunt the ogre
+// Move up X 2
+
+
 this.moveDown();
 this.moveDown();
 this.say("Hey");
-// Run for cover
 this.moveUp();
 this.moveUp();
 
@@ -101,7 +124,7 @@ return true;
 
 
 // TAUNT
-//Lure the ogre by taunting him four times
+// Lure the ogre by saying something four times
 this.say("Hi");
 this.say("Hello mate");
 this.say("Bonjour");
@@ -110,38 +133,39 @@ this.say("Hola");
 
 // COWARDLY TAUNT
 // Run your soldier out where the ogres can hear you.
+// Say something.
+// Run back behind the arrow towers for safety.
 this.moveXY(51,34);
-// Say something!
 this.say("I am saying something.");
-// Then run back behind the arrow towers for safety.
 this.moveXY(58, 4);
 
 
 
 
 // COMMANDING FOLLOWERS
-// Say hello to followers
+// Say hello 
+// Say to follow
+// Move closer to the enemies
+// Say "Attack!"
+// Move away
+
 this.moveXY(49, 66);
 this.moveXY(60, 63);
 this.moveXY(75, 63);
 this.say("Hail, friends!");
-// Say anything with "follow" in it to get nearby soldiers
-// to follow you
 this.say("Follow me mates");
 this.moveXY(63,41);
-// Say anything with "attack" to send nearby troops into
-// a battle mode.
 this.say("Attack");
-// Get Tharin to move to keep him safe.
 this.moveXY(71,55);
 
 
 
 // MOBILE ARTILLERY
 //Move into range
-this.moveXY(30, 26);  // Move into range
-//Shoot in middle of ogres
-// Move into range and shoot different groups of ogres
+// Shoot in middle of ogres.
+// Move into range and shoot different groups of ogres.
+
+this.moveXY(30, 26);  
 this.moveXY(65, 32);
 this.attackXY(68,55);
 this.attackXY(68,45);
