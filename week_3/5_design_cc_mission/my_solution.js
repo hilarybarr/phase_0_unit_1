@@ -27,103 +27,7 @@
 
 
 /*
-// Initial Code
-
-var seeker= {
-	name: "Mike",
-	status: "excited",
-	location: "bedroom"
-}
-
-var hider= {
-	name: "Tom",
-	status: "excited",
-	location: "closet",
-	hint: "You are getting warmer, bro."
-}
-
-
-
-// Define the begingame function.
-
-var begingame= function() {
-	console.log(seeker.name + " is currently in the " + seeker.location +"." + seeker.name + " closes his eyes and counts to ten while "+ hider.name+ " hides. Go find " + hider.name +"!!!");
-}
-
-// Define the search function.
-
-var search=function(location) {
-	 this.location=location;
-	 if (this.location===hider.location) {
-	 	 console.log("You found  " + hider.name + " in the  " +this.location +" . Good job!");
-	 		if (hider.location==="kitchen")  {
-	 			console.log("You are tired now. Game over.")
-	 		}
-	 		else {
-				console.log(hider.name +" moved somewhere else. Try searching again!");
-	 			hider.location="kitchen";
-	 			this.status="proud";
-	 		}
-	 }
-	 else {
-	 	if (this.location==="bedroom") {
-	 		console.log("You walked out the bedroom but think you hear something from inside. Maybe you should check the bedroom again?")
-	 	}
-	 	else {
-	 		console.log(hider.name +" is not in the " + this.location + ". Try searching somewhere else.");
-	 		this.status="confused";
-	 	}
-	 }
-}; 
-
-
-// Define the requestHint function.
-var requestHint=function() {
-	if (this.status==="confused") {
-		console.log(hider.hint);
-	}
-	else {
-		console.log("You need to try searching more before " + hider.name + " will give you a hint, silly.")
-	}
-
-};
-
-
-
-
-// Begin game
-console.log(begingame());
-// Ask for a hint
-console.log (requestHint());
-// Search in the basement.
-console.log(search("basement"));
-// Search in the attic.
-console.log(search("attic"));
-// Search in the bathroom.
-console.log(search("bathroom"));
-// Ask for a hint
-console.log (requestHint());
-// Search in the closet.
-console.log(search("closet"));
-// Search in the dining room.
-console.log(search("diningroom"));
-// Ask for a hint
-console.log (requestHint());
-// Search in the bedroom twice.
-console.log(search("bedroom"));
-console.log(search("bedroom"));
-// Search in the kitchen.
-console.log(search("kitchen"));
-
-*/
-
-
-
-// Refactored Code
-// The original code did what it was supposed to do. However, the console wrote "undefined" after each console log. 
-// After trying a bunch of ideas out, I realized that I didn't need all the console.logs in the code because there are console.logs
-// written into the functions. I deleted the console logs from the game portion. I also added a function, feeling, to the seeker that writes 
-// his status. 
+// Initial Code (With two objects and no constructors)
 
 
 var seeker= {
@@ -222,10 +126,13 @@ search("kitchen");
 
 
 
+*/
 
 
-/*
-Refactor V2: With constructor objects
+//Refactored code:  This code isn't necessarily better than the original version. They both work, but I wanted to get 
+// practice creating constructors and object types and working with the this keyword. This version makes it possible to define new
+// seekers easily, in case the user wants to change who the seeker is.
+
 
 //Define Seeker object type
 function Seeker(name, status, location) {
@@ -251,11 +158,11 @@ var hider= {
      hint: "You are getting warmer, bro" 
      }
 
+
 // Define begingame function
 function begingame() {
   console.log(this.name + " is currently in the " + this.location +"." + this.name + " closes his eyes and counts to ten while "+ hider.name+ " hides. Go find " + hider.name +"!!!");
 }
-
 
 
 // Define search function
@@ -284,6 +191,7 @@ function search(location) {
 }; 
 
 
+
 // Define the requestHint function.
 function requestHint() {
   if (this.status==="confused") {
@@ -296,10 +204,7 @@ function requestHint() {
 };
 
 
-
-
-
-
+//Function calls
 
 // Begin game
 seeker1.begingame();
@@ -335,17 +240,31 @@ seeker1.search("kitchen");
 
 
 
+/*
+// Reflection
+
+
+At first, my code wasn't working and I realized that it was because I had placed all of my functions calls inside console logs.
+This wasn't necessary because the functions themselves had console logs inside of them. I also wasn't sure whether to create variables 
+that were equal to functions (as in the original version) versus whether to use constructors (as in the refactored version). I discussed this during 
+office hours and learned that this comes down to personal preference, but creating a constuctor function can be helpful when you will be creating 
+multiple instances of an object type (i.e. if we wanted to create multiple seekers versus just one). If we were to use a constructor function, 
+we would use the this keyword to refer to the future objects we instantiate. Hence, the this keyword was used frequently in the methods 
+in the refactored but not original version. The only time I used the this keyword in the original version was when I created a method as 
+a property of the seeker object (seeker.feeling()); the this keyword in the body of the feeling method referred back to the seeker object.
+
+
+I wanted to be able to create a while loop where if the seeker searchers the bedroom more than twice in a row, they would get one message,
+then after they have searched the bedroom three times in a row, they would another message. I wasn't able to figure out how to do this,
+so I will keep playing with it.
+
+I learned how to create object types with constructor functions; how to create instances of objects using literal notation and constructors; and how to work with the this keyword. I also learned about scope.
+I have a decent understanding of all this but am still a bit confused by constructors and the this keyword.
+
+I enjoyed writing code that resembled a game and seeing it work. I didn't find any parts of the challenge tedious since everything
+was a part of the learning experience.
+
+
 
 
 */
-
-
-// Reflection
-//   Question: was I supposed to use seeker. in the functions or this.
-// How do I get it so that if he searches bedroom twice it says to look somewhere else
-// 
-// 
-// 
-// 
-// 
-// 
