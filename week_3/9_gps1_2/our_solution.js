@@ -83,6 +83,8 @@ var printClient=function(Client) {
 
 }
 
+clientaray=[tomCruise, nataliePortman, kristenBell, jimCarrey ]
+
 printClient(kristenBell);
 
 
@@ -103,6 +105,73 @@ jimCarrey.showQuote()
 
 // ** BONUS **
 // Added Gender above
+
+
+
+/*
+
+REFACTORED VERSION OF CODE
+Note: Later in the week, I went back and refactored the code.
+
+
+var tomCruise = {
+    name: "Tom Cruise",
+    age: 50,
+    gender: "male"
+    quote: "Show me the money!"
+
+};
+
+var nataliePortman = {
+    name: "Natalie Portman",
+    age: 35,
+    gender: "female",
+   quote: "May the force be with you!"
+};
+
+// Create Client constructor
+function Client(name, age, gender, quote) {
+    this.name=name;
+    this.age=age;
+    this.gender=gender;
+    this.quote=quote;
+}
+
+//The console.logs pass as true to verify test
+var shooterMcGavin = new Client("Shooter McGavin", 48, "Just stay out of my way... or you'll pay. Listen to what I say.");
+console.log(shooterMcGavin.constructor === Client);
+console.log(shooterMcGavin.age === 48);
+console.log(shooterMcGavin.quote === "Just stay out of my way... or you'll pay. Listen to what I say.");
+
+console.log(shooterMcGavin.age);
+
+
+// Instantiate new Client objects
+var adamSandler= new Client("Adam Sandler", 47, "male", "That's your home! Are you too good for your home?");
+var kristenBell= new Client("Kristen Bell", 33, "female", "Do you wanna build a snowman?");
+var jimCarrey= new Client("Jim Carrey", 52, "male", "...So you're telling me there's a chance? YEAH!");
+
+
+//Since we are adding in showQuote after creating Client constructor, use prototype
+Client.prototype.showQuote=function() {console.log(this.quote); }
+
+
+//To print everyone in pretty way
+
+clientArray=[tomCruise, nataliePortman, kristenBell, jimCarrey]
+for (var i=0; i<clientArray.length; i++) {
+    if (clientArray[i].gender==="female") {
+        console.log ("Her name is" + clientArray[i].name + "and she is" + clientArray[i].age +"years old" + "and her favorite quote is" + clientArray[i].quote);
+    }
+    else {
+         console.log ("His name is" + clientArray[i].name + "and he is" + clientArray[i].age +"years old" + "and his favorite quote is" + clientArray[i].quote)
+    }
+
+};
+
+*/
+
+
 
 // //  Your Reflection:
 // What parts of your strategy worked? What problems did you face?
