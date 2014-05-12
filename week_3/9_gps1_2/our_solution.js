@@ -5,7 +5,7 @@
 //  2. Hilary Barr
 
 
-<<<<<<< HEAD
+
 // 1. "YOU SIGNED... WHO?!"
 var tomCruise = {
     Name: "Tom Cruise",
@@ -13,9 +13,9 @@ var tomCruise = {
     Quote: "Show me the money!",
     Gender: "Male"
 };
-=======
+
 // 0. "YOU SIGNED... WHO?!"
->>>>>>> b3ef230dd52903cb91cb731a85425dfebfd3b2dd
+
 
 var nataliePortman = {
     Name: "Natalie Portman",
@@ -71,8 +71,19 @@ console.log(shooterMcGavin.Quote === "Just stay out of my way... or you'll pay. 
 console.log(shooterMcGavin.Age);
 
 
+// 3. "SHOWQUOTE"
 
-<<<<<<< HEAD
+
+var jimCarrey = {
+    Name: "Jim Carrey",
+    Age: 52,
+    Quote: "...So you're telling me there's a chance? YEAH!",
+    Gender: "Male",
+    showQuote: function() {console.log(this.Quote); }
+};
+
+jimCarrey.showQuote()
+
 // 4. "SHOW 'EM OFF!"
 //The Client here is just the parameter, not the same as the var Client
 var printClient=function(Client) {
@@ -94,24 +105,7 @@ printClient(kristenBell);
 
 
 
-// 5. "ShowQuote"
-=======
-// 3. "SHOW 'EM OFF!"
->>>>>>> b3ef230dd52903cb91cb731a85425dfebfd3b2dd
 
-var jimCarrey = {
-    Name: "Jim Carrey",
-    Age: 52,
-    Quote: "...So you're telling me there's a chance? YEAH!",
-    Gender: "Male",
-    showQuote: function() {console.log(this.Quote); }
-};
-
-jimCarrey.showQuote()
-
-
-
-<<<<<<< HEAD
 // ** BONUS **
 // Added Gender above
 
@@ -205,19 +199,12 @@ for (var i=0; i<clientArray.length; i++) {
 
 // Which parts of the challenge did you enjoy?
 // I enjoyed going from being confused to seeing everything come together in the end.
-=======
->>>>>>> b3ef230dd52903cb91cb731a85425dfebfd3b2dd
+
 
 // 4. "But wait, there's more!"
 
-<<<<<<< HEAD
+
 // Which parts of the challenge did you find tedious?
 // Writing multiple object literals with the same properties was a bit tedious.
-=======
 
 
-// 5.  ** BONUS **
-
-
-//  6.  Your Reflection:
->>>>>>> b3ef230dd52903cb91cb731a85425dfebfd3b2dd
