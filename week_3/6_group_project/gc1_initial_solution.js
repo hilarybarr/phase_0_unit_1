@@ -55,3 +55,13 @@ console.log(median(oddLengthArray));
 console.log(median(evenLengthArray));
 
 
+
+
+// //REFLECTION:
+// The group project was an interesting experience because we got a sense of what it is like to come into a 
+// project without having worked on it from the beginning. I learned that user stories convey what is desired
+// in even less technical language than pseudocode. Seeing the refactored code made me realize that the console.logs 
+// I put in the original code weren't necessary and also that I had to add a "var" in front of the "i" in the for loop
+// and in front of some variables. I didn't realize that I was supposed to write the code with someone else due to the
+// size of the group; I will read the directions more carefully next time.
+
