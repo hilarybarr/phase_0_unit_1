@@ -1,3 +1,4 @@
+#test
 # Week 1: Introduction to HTML and CSS
 
 Welcome to Phase 0! We hope you are excited to further your knowledge and begin integrating into the developer and DBC community. Please make sure you've read through the [Phase 0 Handbook](https://github.com/devbootcamp/phase_0_handbook) **before** getting started with the weekly challenges. 
