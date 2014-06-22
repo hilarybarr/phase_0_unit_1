@@ -1,6 +1,6 @@
 [Back](set_up_repo.md)
 
-# Clone a Git repository
+# Clone a Git repository.
 
 "Cloning" a repository copies what's on Github to your computer.
 
